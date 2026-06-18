@@ -7,5 +7,14 @@ public class Energia extends Carta {
 		super(nombre, rareza);
 		this.elemento = elemento;
 	}
+	
+	public String getElemento() {
+		return elemento;
+	}
 
+	@Override
+	public String escribirse() {
+		// TODO Auto-generated method stub
+		return nombre + ";" + rareza + ";" + "Energy" + ";" + elemento;
+	}
 }

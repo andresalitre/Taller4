@@ -2,6 +2,8 @@ package Logica;
 
 import Dominio.*;
 import GUI.*;
+
+import java.io.IOException;
 import java.util.*;
 
 public class Sistema implements ISistema {
@@ -22,10 +24,9 @@ public class Sistema implements ISistema {
 	}
 
 	@Override
-	public void iniciar() {
+	public void iniciar() throws IOException {
 		Menu menu = new Menu(cartas);
 		menu.iniciar();
-		
 	}
 	
 

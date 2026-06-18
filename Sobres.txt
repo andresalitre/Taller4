@@ -29,4 +29,4 @@ Water Energy;1;Energy;Water
 Lightning Energy;1;Energy;Lightning
 Double Turbo Energy;3;Energy;Colorless
 Nanachi-Ex;5;Pokemon;350;4
-Rikka Takanashi;10;Supporter;6
+Rikka Takanashi;10;Pokemon;70;2

@@ -7,5 +7,17 @@ public class Item extends Carta {
 		super(nombre, rareza);
 		this.bonificacion = bonificacion;
 	}
+	
+	
+	public int getBonificacion() {
+		return bonificacion;
+	}
+
+
+	@Override
+	public String escribirse() {
+		// TODO Auto-generated method stub
+		return nombre + ";" + rareza + ";" + "Item" + ";" + bonificacion;
+	}
 
 }

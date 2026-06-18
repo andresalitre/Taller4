@@ -13,9 +13,10 @@ public class Menu {
 	}
 
 	public void iniciar() {
-		for (Carta c : cartas) {
-			System.out.println(c);
-		}
+		
+		
 	}
+	
+	
 	
 }
