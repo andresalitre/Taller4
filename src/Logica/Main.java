@@ -14,7 +14,7 @@ public class Main {
 	}
 
 	public static void leer() throws FileNotFoundException { // lector de archivos que envia la linea al ISistema que la envia al Sistema que la envia al factory que le devuelve el objeto creado al sistema que lo añade a la lista
-		Scanner lector = new Scanner(new File("Sobres.txt"));
+		Scanner lector = new Scanner(new File("Taller4/Sobres.txt"));
 		while (lector.hasNextLine()) {
 			String linea = lector.nextLine();
 			sistema.crearCarta(linea);

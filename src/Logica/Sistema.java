@@ -25,7 +25,7 @@ public class Sistema implements ISistema {
 
 	@Override
 	public void iniciar() throws IOException {
-		Menu menu = new Menu(cartas);
+		Menu menu = new Menu((ArrayList<Carta>) cartas);
 		menu.iniciar();
 	}
 	
